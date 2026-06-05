@@ -1,117 +1,123 @@
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @keyframes rotate3D {
-        0% {
-          transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px) rotateX(-20deg);
         }
-        100% {
-          transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-        }
-      }
-
-      @keyframes float {
-        0%, 100% {
-          transform: translateY(0px);
-        }
-        50% {
-          transform: translateY(-15px);
+        to {
+          opacity: 1;
+          transform: translateY(0) rotateX(0deg);
         }
       }
 
-      .logo-container {
-        animation: float 4s ease-in-out infinite;
+      .logo-main {
+        animation: slideIn 1.2s ease-out forwards;
         transform-style: preserve-3d;
-        perspective: 1200px;
-      }
-
-      .logo-group {
-        animation: rotate3D 8s linear infinite;
-        transform-style: preserve-3d;
-        transform-origin: 100px 100px;
-      }
-
-      .a-shape {
-        filter: drop-shadow(0 10px 30px rgba(168, 85, 247, 0.6));
-      }
-
-      .gradient-1 {
-        stop-color: #a855f7;
-        stop-opacity: 1;
-      }
-
-      .gradient-2 {
-        stop-color: #ec4899;
-        stop-opacity: 1;
-      }
-
-      .gradient-3 {
-        stop-color: #f472b6;
-        stop-opacity: 1;
       }
     </style>
 
-    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" class="gradient-1" />
-      <stop offset="50%" class="gradient-2" />
-      <stop offset="100%" class="gradient-3" />
+    <!-- Gradient for main A -->
+    <linearGradient id="purplePink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d946ef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
     </linearGradient>
 
-    <linearGradient id="metallicGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
-      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.1" />
-      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.5" />
+    <!-- Dark shadow gradient for 3D effect -->
+    <linearGradient id="shadowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.1" />
+    </linearGradient>
+
+    <!-- Light highlight for metallic effect -->
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
     </linearGradient>
   </defs>
 
-  <g class="logo-container">
-    <g class="logo-group">
-      <!-- Main "A" shape -->
-      <g class="a-shape">
-        <!-- Left stroke of A -->
-        <path
-          d="M 60 160 L 100 40 L 140 160"
-          fill="none"
-          stroke="url(#purpleGradient)"
-          stroke-width="12"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
+  <g class="logo-main">
+    <!-- Shadow/Depth layer (back) -->
+    <g transform="translate(2, 4)">
+      <path
+        d="M 70 170 L 100 50 L 130 170 Z"
+        fill="none"
+        stroke="url(#shadowGrad)"
+        stroke-width="14"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <line
+        x1="80"
+        y1="125"
+        x2="120"
+        y2="125"
+        stroke="url(#shadowGrad)"
+        stroke-width="14"
+        stroke-linecap="round"
+      />
+    </g>
 
-        <!-- Horizontal bar of A -->
-        <line
-          x1="75"
-          y1="120"
-          x2="125"
-          y2="120"
-          stroke="url(#purpleGradient)"
-          stroke-width="12"
-          stroke-linecap="round"
-        />
+    <!-- Main A shape (front) with gradient -->
+    <g>
+      <!-- Left stroke -->
+      <path
+        d="M 70 170 L 100 50 L 130 170"
+        fill="none"
+        stroke="url(#purplePink)"
+        stroke-width="14"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
 
-        <!-- Metallic highlight effect -->
-        <path
-          d="M 60 160 L 100 40 L 140 160"
-          fill="none"
-          stroke="url(#metallicGradient)"
-          stroke-width="6"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          opacity="0.6"
-        />
-      </g>
+      <!-- Horizontal bar -->
+      <line
+        x1="80"
+        y1="125"
+        x2="120"
+        y2="125"
+        stroke="url(#purplePink)"
+        stroke-width="14"
+        stroke-linecap="round"
+      />
 
-      <!-- 3D depth effect - shadows -->
-      <g opacity="0.3">
-        <path
-          d="M 65 165 L 105 45 L 145 165"
-          fill="none"
-          stroke="#a855f7"
-          stroke-width="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </g>
+      <!-- Metallic highlight (left side) -->
+      <path
+        d="M 72 168 L 100 55 L 108 165"
+        fill="none"
+        stroke="url(#highlight)"
+        stroke-width="5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.6"
+      />
+
+      <!-- Metallic highlight (right side) -->
+      <path
+        d="M 128 168 L 100 55 L 92 165"
+        fill="none"
+        stroke="url(#highlight)"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.4"
+      />
+    </g>
+
+    <!-- Glow effect -->
+    <g opacity="0.2">
+      <path
+        d="M 70 170 L 100 50 L 130 170"
+        fill="none"
+        stroke="#d946ef"
+        stroke-width="20"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="blur(2px)"
+      />
     </g>
   </g>
 </svg>
