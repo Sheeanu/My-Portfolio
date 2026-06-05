@@ -1,9 +1,8 @@
 import Hero from "../../components/Hero";
-import Draw from "../../components/Draw";
 
 /**
  * Represents the Landing page component.
- * Displays the main landing page content including Hero, Drawing, and About sections.
+ * Displays the main landing page content including Hero section.
  *
  * @component
  * @param {string} name - The name of the user displayed in the Hero section.
@@ -24,9 +23,6 @@ const Landing = ({ name }) => {
     <>
       {/* Main Landing Page */}
       <main className="landing container" style={styles.landing}>
-        {/* Display the drawing component */}
-        <Draw />
-
         {/* Display the hero component */}
         <Hero name={name} />
       </main>
