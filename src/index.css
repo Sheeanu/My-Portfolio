@@ -68,8 +68,11 @@ body,
 #root {
   height: 100%;
   background-color: var(--bg-color);
-  background: linear-gradient(-45deg, #0a0f18, #131a22, #1b2533, #0a0f18);
-  background-size: 400% 400%;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(-45deg, #0a0f18, #131a22, #1b2533, #0a0f18);
+  background-size: 40px 40px, 40px 40px, 400% 400%;
   animation: gradientBG 15s ease infinite;
 }
 
