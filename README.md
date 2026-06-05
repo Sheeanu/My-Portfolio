@@ -154,8 +154,8 @@ Project Link: [https://github.com/Sheeanu/My-Portfolio](https://github.com/Sheea
 
   <!-- UPDATE PLACEHOLDER IMAGES HERE -->
 
-[product-screenshot]: src/images/about_screenshot.jpg
-[product-screenshot2]: src/images/logo.svg
-[product-screenshot3]: src/images/contact_screenshot.jpg
+[product-screenshot]: src/images/about_screenshot.jpg?v=2
+[product-screenshot2]: src/images/logo.svg?v=2
+[product-screenshot3]: src/images/contact_screenshot.jpg?v=2
 
 
