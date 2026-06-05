@@ -16,7 +16,7 @@
     <a href="https://github.com/Sheeanu/My-Portfolio">
       <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
     </a>
-    <h1 align="center">MeetAnushri.me</h1>
+    <h1 align="center">Anushri's Portfolio</h1>
     <p align="center">
     <br/>
 Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React.<br/>
@@ -27,7 +27,7 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
       <a href="https://github.com/Sheeanu/My-Portfolio"><strong>Explore the docs »</strong></a>
       <br/>
       <br/>
-      <a href="https://my-portfolio-nine-iota-33.vercel.app">View Live Website</a>
+      <a href="https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app">View Live Website</a>
       ·
       <a href="https://github.com/Sheeanu/My-Portfolio/issues">Report Bug</a>
       ·
@@ -66,11 +66,11 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
   
   ### Photos
   
-[![My React Portfolio Screen Shot][product-screenshot]](https://my-portfolio-nine-iota-33.vercel.app/)
+[![My React Portfolio Screen Shot][product-screenshot]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
 
-[![My React Portfolio Screen Shot][product-screenshot2]](https://my-portfolio-nine-iota-33.vercel.app/)
+[![My React Portfolio Screen Shot][product-screenshot2]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
 
-[![My React Portfolio Screen Shot][product-screenshot3]](https://my-portfolio-nine-iota-33.vercel.app/)
+[![My React Portfolio Screen Shot][product-screenshot3]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
