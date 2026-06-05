@@ -64,7 +64,13 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
   
   ## About The Project
   
+  ### Photos
+  
+[![About Me Screen Shot][product-screenshot]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
 
+[![Logo Screen Shot][product-screenshot2]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
+
+[![Contact Page Screen Shot][product-screenshot3]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
@@ -145,5 +151,11 @@ Project Link: [https://github.com/Sheeanu/My-Portfolio](https://github.com/Sheea
 [license-url]: https://github.com/Sheeanu/My-Portfolio/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/Sheeanu
+
+  <!-- UPDATE PLACEHOLDER IMAGES HERE -->
+
+[product-screenshot]: src/images/screenshot.jpg
+[product-screenshot2]: src/images/logo.svg
+[product-screenshot3]: src/images/screenshot3.jpg
 
 
