@@ -1,4 +1,3 @@
-import { useState } from "react";
 import SocialIcons from "./SocialIcons";
 
 /**
@@ -26,4 +25,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
