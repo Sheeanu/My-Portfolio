@@ -64,13 +64,7 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
   
   ## About The Project
   
-  ### Photos
-  
-[![My React Portfolio Screen Shot][product-screenshot]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
 
-[![My React Portfolio Screen Shot][product-screenshot2]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
-
-[![My React Portfolio Screen Shot][product-screenshot3]](https://my-portfolio-six-sigma-gv7yq6tpe9.vercel.app/)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
@@ -129,7 +123,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
   
 ## Questions
 
-If you have any inquiries, don't hesitate to reach out to me via socials or by sending an email to <a href="mailto:AnushriPramanik22@gmail.com">AnushriPramanik22@gmail.com</a>
+If you have any inquiries, don't hesitate to reach out to me via socials or by sending an email to <a href="mailto:anushripramanik22@gmail.com">anushripramanik22@gmail.com</a>
 
 <a href="https://www.linkedin.com/in/anushri-pramanik/">LinkedIn</a> | <a href="https://github.com/Sheeanu/">GitHub</a>
 
@@ -152,8 +146,4 @@ Project Link: [https://github.com/Sheeanu/My-Portfolio](https://github.com/Sheea
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/Sheeanu
 
-  <!-- UPDATE PLACEHOLDER IMAGES HERE -->
 
-[product-screenshot]: src/images/screenshot.jpg
-[product-screenshot2]: src/images/screenshot2.jpg
-[product-screenshot3]: src/images/screenshot3.jpg

@@ -43,6 +43,18 @@
   }
 }
 
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* --- RESETS --- */
 
 * {
@@ -56,6 +68,9 @@ body,
 #root {
   height: 100%;
   background-color: var(--bg-color);
+  background: linear-gradient(-45deg, #0a0f18, #131a22, #1b2533, #0a0f18);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
 }
 
 body {
@@ -103,10 +118,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
   background-color: var(--hl2-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(234, 91, 92, 0.4);
 }
 
 .btn:hover .arrow-icon {

@@ -54,6 +54,17 @@ const SocialIcons = () => {
           title="Anushri Pramanik's Instagram Profile"
         ></motion.i>
       </a>
+      <a className="icon" style={styles.icon} href="https://t.me/sheeanu">
+        {/* Telegram Icon */}
+        <motion.i
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 1.5, duration: 0.5, type: "spring" }}
+          className="fa-brands fa-telegram"
+          aria-hidden="true"
+          title="Anushri Pramanik's Telegram Profile"
+        ></motion.i>
+      </a>
     </div>
   );
 };
