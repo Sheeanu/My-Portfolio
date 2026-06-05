@@ -27,7 +27,7 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
       <a href="https://github.com/Sheeanu/My-Portfolio"><strong>Explore the docs »</strong></a>
       <br/>
       <br/>
-      <a href="https://MeetAnushri.me">View Live Website</a>
+      <a href="https://my-portfolio-nine-iota-33.vercel.app">View Live Website</a>
       ·
       <a href="https://github.com/Sheeanu/My-Portfolio/issues">Report Bug</a>
       ·
@@ -66,11 +66,11 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
   
   ### Photos
   
-[![My React Portfolio Screen Shot][product-screenshot]](https://MeetAnushri.me/)
+[![My React Portfolio Screen Shot][product-screenshot]](https://my-portfolio-nine-iota-33.vercel.app/)
 
-[![My React Portfolio Screen Shot][product-screenshot2]](https://MeetAnushri.me/)
+[![My React Portfolio Screen Shot][product-screenshot2]](https://my-portfolio-nine-iota-33.vercel.app/)
 
-[![My React Portfolio Screen Shot][product-screenshot3]](https://MeetAnushri.me/)
+[![My React Portfolio Screen Shot][product-screenshot3]](https://my-portfolio-nine-iota-33.vercel.app/)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
